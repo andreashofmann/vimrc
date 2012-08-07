@@ -35,3 +35,10 @@ set tabstop=4
 set ai
 set si
 set wrap
+
+" show unwanted whitespace
+set list listchars=tab:>-,trail:·,extends:>
+
+" remove unwanted whitespace on save
+autocmd BufWritePre * :%s/\s\+$//e
+
