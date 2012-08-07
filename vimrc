@@ -8,6 +8,7 @@ call vundle#rc()
 
 " vundle bundles
 Bundle 'gmarik/vundle'
+Bundle 'molokai'
 
 " vundle post setup
 filetype plugin indent on
@@ -41,4 +42,8 @@ set list listchars=tab:>-,trail:·,extends:>
 
 " remove unwanted whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
+
+" color scheme
+set t_Co=256
+colorscheme molokai
 
