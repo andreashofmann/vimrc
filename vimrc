@@ -19,3 +19,8 @@ syntax enable
 set number
 set ruler
 
+" Standard encoding
+set encoding=utf8
+
+" EOL character preference
+set ffs=unix,dos,mac
