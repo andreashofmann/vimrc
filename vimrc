@@ -1,6 +1,17 @@
 " no vi compatibility
 set nocompatible
 
+" vundle setup
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" vundle bundles
+Bundle 'gmarik/vundle'
+
+" vundle post setup
+filetype plugin indent on
+
 " enable syntax highlighting
 syntax enable
 
