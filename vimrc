@@ -24,3 +24,14 @@ set encoding=utf8
 
 " EOL character preference
 set ffs=unix,dos,mac
+
+" Use spaces instead of tabs
+set expandtab
+set smarttab
+set shiftwidth=4
+set tabstop=4
+
+" Indentation
+set ai
+set si
+set wrap
