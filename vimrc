@@ -9,6 +9,8 @@ call vundle#rc()
 " vundle bundles
 Bundle 'gmarik/vundle'
 Bundle 'molokai'
+Bundle 'pangloss/vim-javascript'
+Bundle 'hallettj/jslint.vim'
 
 " vundle post setup
 filetype plugin indent on
