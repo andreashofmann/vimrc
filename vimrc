@@ -13,6 +13,10 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'hallettj/jslint.vim'
 Bundle 'michaeljsmith/vim-indent-object'
 Bundle 'tpope/vim-fugitive'
+Bundle 'kien/ctrlp.vim'
+
+" leader is ,
+let mapleader=","
 
 " vundle post setup
 filetype plugin indent on
@@ -51,3 +55,5 @@ autocmd BufWritePre * :%s/\s\+$//e
 set t_Co=256
 colorscheme molokai
 
+" map ctrl+p to ,t
+nnoremap <silent> <leader>t :CtrlP<cr>
