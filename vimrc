@@ -11,6 +11,7 @@ Bundle 'gmarik/vundle'
 Bundle 'molokai'
 Bundle 'pangloss/vim-javascript'
 Bundle 'hallettj/jslint.vim'
+Bundle 'michaeljsmith/vim-indent-object'
 
 " vundle post setup
 filetype plugin indent on
