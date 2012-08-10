@@ -14,6 +14,7 @@ Bundle 'hallettj/jslint.vim'
 Bundle 'michaeljsmith/vim-indent-object'
 Bundle 'tpope/vim-fugitive'
 Bundle 'kien/ctrlp.vim'
+Bundle 'SirVer/ultisnips'
 
 " leader is ,
 let mapleader=","
