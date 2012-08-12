@@ -15,6 +15,8 @@ Bundle 'michaeljsmith/vim-indent-object'
 Bundle 'tpope/vim-fugitive'
 Bundle 'kien/ctrlp.vim'
 Bundle 'SirVer/ultisnips'
+Bundle 'rstacruz/vim-ultisnips-css'
+Bundle 'ap/vim-css-color'
 
 " leader is ,
 let mapleader=","
